@@ -1,5 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
 
+body {
+  background: url('../image/header-logo.png');
+  background-repeat: no-repeat;
+}
+
 h1 {
   text-align: center;
   font-family: 'Inconsolata', ;
