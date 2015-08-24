@@ -4,3 +4,21 @@ body {
   background: url('../image/header-logo.png');
   background-repeat: no-repeat;
 }
+
+.portal {
+  display: block;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url('../image/gear.jpg');
+  background-size: 250px;
+  transition: all 500ms;
+}
+
+.portal:hover {
+  background-size: 300px;
+  background-position: -5px 0;
+}
